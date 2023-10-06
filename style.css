@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@font-face {
+  font-family:'hand';
+  src: url(fontes/Handmade.otf) format('opentype'); 
+  font-weight: bolder;
+}
+@font-face {
+  font-family:'hugme' ;
+  src: url(fontes/Hug\ Me\ Tight\ -\ OTF.otf) format('opentype');
+  font-weight: bold;
+}
+*{
+  margin: 0;
+
+}
+:root{
+
+  --cor00:#027313;
+  --cor01:#02590F;
+  --cor02:#104017;
+  --cor03:#D9CB04;
+  --cor04:#0D0D0D;
+
+  --fonte-padrão:arial,verdana,helvetica,sans-serif;
+  --fonte-destaque:'hand';
+  --fonte-h1:'hugme';
+}
+header {
+  background-image: url(imagens/Sem\ título.png);
+  height: 250px;
+  padding: 13px 220px;
+}
+.imagem-centralizada{
+  display: block;
+  margin: auto;
+  width: 607px;
+  height: 222px ;
+  }
+  .cozinha {
+    position: absolute;
+    top: 143px;
+    left: 553px;
+    height: 425px;
+    width: 357px;
+}
+  
+  nav {
+    background-color: var(--cor03);
+    padding: 20px;
+    border: solid white;
+  }
+  nav a {
+    font-family:var(--fonte-destaque) ;
+    font-size: 1.9em;
+    margin: 20px;
+    font-weight: bolder;
+    
+  }
+  a {
+    color:black;
+  }
+  a:hover {
+    border-radius: 6px;
+    color:white;
+    background-color:var(--cor02) ;
+    padding: 25px;
+    transition-duration: 0.3s;
+
+    
+  }
+  body{
+    background-image: url(imagens/pexels-alan-quirván-modificada\ 1000.jpg);
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+
+  }
+  main{
+    
+  }
+  article {
+    margin: auto;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    height: 600px;
+    width: 1024px;
+}
+
+  
+ h1 {
+  padding-top: 30px;
+    color: white;
+    font-family: var(--fonte-h1);
+    font-size: 2.5em;
+    text-align: center;
+    
+    
+    
+
+  } 
+  
+  p {
+    color:white;
+    position: absolute;
+    top: 278px;
+    left: 100px;
+    text-indent: 5px;
+    text-align: justify;
+    font-size: 2.5em;
+  }
