@@ -26,7 +26,7 @@
   --fonte-h1:'hugme';
 }
 header {
-  background-image: url(imagens/Sem\ título.png);
+  background-color: #0D0D0D;
   height: 250px;
   padding: 13px 220px;
 }
