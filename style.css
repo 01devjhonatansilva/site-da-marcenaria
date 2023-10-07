@@ -11,31 +11,6 @@
 }
 *{
   margin: 0;
-
-}
-*nav{
-  background-color: var(--cor03);
-  padding: 20px;
-  border: solid white;
-}
-nav a {
-  font-family:var(--fonte-destaque) ;
-  font-size: 1.9em;
-  margin: 20px;
-  font-weight: bolder;
-  
-}
-
-a {
-  color:black;
-}
-a:hover {
-  border-radius: 6px;
-  color:white;
-  background-color:var(--cor02) ;
-  padding: 25px;
-  transition-duration: 0.3s;
-
   
 }
 :root{
