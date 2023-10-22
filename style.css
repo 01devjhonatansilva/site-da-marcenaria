@@ -10,9 +10,11 @@
   font-weight: bold;
 }
 *{
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   
 }
+
 :root{
 
   --cor00:#027313;
@@ -26,6 +28,8 @@
   --fonte-h1:'hugme';
 }
 header {
+  max-width: 1000px;
+  min-width: 400px;
   background-image: linear-gradient(to right ,black 40% ,#104017,#027313);
   height: 250px;
   padding: 13px 220px;
@@ -38,6 +42,8 @@ header {
   
   }
   .cozinha {
+    max-width: 1000px;
+    min-width: 400px;
     position: absolute;
     top: 143px;
     left: 553px;
@@ -71,18 +77,26 @@ header {
     
   }
   body{
+    margin: auto;
+    max-width: 1000px;
+    min-width: 400px;
     background-image: url(imagens/pexels-alan-quirván-modificada\ 1000.jpg);
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: auto;
+    
 
   }
   main{
+    margin: auto;
+    max-width: 1000px;
+    min-width: 400px;
     
   }
   article {
+    max-width: 1000px;
+    min-width:400px;
     margin: auto;
     backdrop-filter: blur(10px);
     background-color: transparent;
@@ -92,11 +106,14 @@ header {
 
   
  h1 {
-  padding-top: 22px;
+    margin: auto;
+    padding-top: 22px;
     color: white;
     font-family: var(--fonte-h1);
     font-size: 2.6em;
     text-align: center;
+    
+  
     
     
     
